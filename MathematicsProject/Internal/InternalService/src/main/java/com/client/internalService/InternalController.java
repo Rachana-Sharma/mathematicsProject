@@ -20,7 +20,7 @@ import com.client.internalModel.Output;
 @RestController
 public class InternalController {
 	/**
-	 * Autowiring InternalService
+	 *  InternalService
 	 */
 	@Autowired
 	InternalService firstInternalService;
