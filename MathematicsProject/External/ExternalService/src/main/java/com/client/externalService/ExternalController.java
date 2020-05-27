@@ -25,23 +25,23 @@ import com.client.externalModel.Result;
 @RestController
 public class ExternalController {
 	/**
-	 * Autowiring ExternalService
+	 *  ExternalService
 	 *
 	 */
 	@Autowired
 	ExternalService externalService;
 	/**
-	 * Autowiring RestTemplate
+	 *  RestTemplate
 	 *
 	 */
 	@Autowired
-	RestTemplate getRestTemplate;
+	RestTemplate restTemplate;
 	/**
-	 * Autowiring MathematicsClient
+	 *MathematicsClient
 	 *
 	 */
 	@Autowired
-	MathematicsClient getClient;
+	MathematicsClient client;
 
 	/**
 	 * Main method
