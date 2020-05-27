@@ -15,7 +15,7 @@ public class ConfigurationClass {
 	 * bean for RestTemplate
 	 */
 	@Bean
-	public RestTemplate getRestTemplate() {
+	public RestTemplate restTemplate() {
 		return new RestTemplate();
 	}
 
@@ -23,14 +23,14 @@ public class ConfigurationClass {
 	 * bean for Client
 	 */
 	@Bean
-	public MathematicsClient getClient() {
+	public MathematicsClient client() {
 		return new MathematicsClient();
 	}
 
 	/**
 	 * bean for External Service
 	 */
-	public ExternalService getExternalService() {
+	public ExternalService externalService() {
 		return new ExternalService();
 	}
 }
