@@ -15,7 +15,7 @@ import com.client.externalModel.Result;
 @Service
 public class ExternalService {
 	/**
-	 * Autowiring MathematicsClient
+	 *  MathematicsClient
 	 *
 	 */
 	@Autowired
